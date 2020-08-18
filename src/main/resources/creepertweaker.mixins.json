@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "tfar.creepertweaker.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "creepertweaker.refmap.json",
+  "mixins": [
+    "CreeperEntityAccessor",
+    "CreeperEntityMixin",
+    "LivingEntityMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8"
+}
